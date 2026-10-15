@@ -1,9 +1,9 @@
 	.text
 main:
-	addi $s1, $zero, 2 # gan gia tri 10 cho g
-	addi $s2, $zero, 3 # gan gia tri 20 cho h
-	addi $s3, $zero, 8 # gan gia tri 3 cho i
-	addi $s4, $zero, 8 # gan gia tri 5 cho j
+	addi $s1, $zero, 10 # gan gia tri 10 cho g
+	addi $s2, $zero, 20 # gan gia tri 20 cho h
+	addi $s3, $zero, 3 # gan gia tri 3 cho i
+	addi $s4, $zero, 5 # gan gia tri 5 cho j
 	
 	add $t0, $s1, $s2 # thanh ghi tam thoi $t0 thay doi, cong gia tri $s1 va $s2 ket qua duoc luu vao thanh ghi $t0
 	add $t1, $s3, $s4 # thanh ghi tam thoi $t1 thay doi, cong gia tri $s3 va $s4 ket qua duoc luu vao thanh ghi $t1
