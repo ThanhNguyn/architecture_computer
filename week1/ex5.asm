@@ -1,11 +1,11 @@
 #A
-addi $s0, $zero, 48 # li $s0, 48, gan 48 vao $s0
+main:	addi $s0, $zero, 48 # li $s0, 48, gan 48 vao $s0
 
-addu $a0, $v0, $zero # move $a0, $v0, gan $a0 = $v0 bang phep cong voi 0
+	addu $a0, $v0, $zero # move $a0, $v0, gan $a0 = $v0 bang phep cong voi 0
 
-slt $at, $s1, $s0  # Dat $at=1 neu $s1<$s0 nguoc lai $at=0 neu $s1>$s0
-bne $at, $zero, main # nhay den main neu $at != 0 => $s1<$s0 nhay den main
-#bgt $s0, $s1
+	slt $at, $s1, $s0  # Dat $at=1 neu $s1<$s0 nguoc lai $at=0 neu $s1>$s0
+	bne $at, $zero, main # nhay den main neu $at != 0 => $s1<$s0 nhay den main
+	#bgt $s0, $s1
 
 #B
 #7000 = 0x1B58 => nam trong so nguyen duong 16 bit co dau

@@ -7,10 +7,10 @@ Repository lưu mã nguồn Assembly MIPS, bản scan bài tập viết tay và 
 | Nội dung | Tệp / liên kết | Ghi chú |
 |---|---|---|
 | Bài tập viết tay (bản scan PDF) | [`week1/14-10-architecture_computer_hw.pdf`](week1/14-10-architecture_computer_hw.pdf) | Bản bài làm do em tự viết; **không phải đề gốc** |
-| Bài 1 / ví dụ đọc biến và tính `x + 5` | [`week1/ex1.asm`](week1/ex1.asm) · [Issue #2](https://github.com/ThanhNguyn/architecture_computer/issues/2) | Với `x = 7`, kết quả cần in là `12` |
-| Buổi 1 — Phần 1: nhập hai số, tính tổng và hiệu | [`week1/example.asm`](week1/example.asm) · [Issue #3](https://github.com/ThanhNguyn/architecture_computer/issues/3) | Dùng `sw` lưu kết quả và `lw` đọc lại trước khi in |
-| Bài 4.1: tính `f = (g + h) - (i + j)` | [`week1/lab1.asm`](week1/lab1.asm) · [Issue #1](https://github.com/ThanhNguyn/architecture_computer/issues/1) | Kiểm thử bằng bốn bộ giá trị của đề |
-| Câu tự kiểm B.5 trước Buổi 1 | [`week1/ex5.asm`](week1/ex5.asm) · [`week1/reports/tu-kiem-b5.md`](week1/reports/tu-kiem-b5.md) | Phần ôn tập; hướng dẫn ghi rõ không phải sản phẩm cần nộp |
+| Bài 1 / ví dụ đọc biến và tính `x + 5` | [`week1/ex1.asm`](week1/ex1.asm) · [Report](https://github.com/ThanhNguyn/architecture_computer/issues/2) | Với `x = 7`, kết quả cần in là `12` |
+| Buổi 1 — Phần 1: nhập hai số, tính tổng và hiệu | [`week1/example.asm`](week1/example.asm) · [Report](https://github.com/ThanhNguyn/architecture_computer/issues/3) | Dùng `sw` lưu kết quả và `lw` đọc lại trước khi in |
+| Bài 4.1: tính `f = (g + h) - (i + j)` | [`week1/lab1.asm`](week1/lab1.asm) · [Report](https://github.com/ThanhNguyn/architecture_computer/issues/1) | Kiểm thử bằng bốn bộ giá trị của đề |
+| Câu tự kiểm B.5 trước Buổi 1 | [`week1/ex5.asm`](week1/ex5.asm) · [Report](https://github.com/ThanhNguyn/architecture_computer/issues/4) | Phần ôn tập; hướng dẫn ghi rõ không phải sản phẩm cần nộp |
 | Báo cáo từng bước | [`week1/reports/`](week1/reports/) | Có báo cáo riêng cho từng chương trình và checklist |
 
 ## Phân biệt tài liệu trong repo
